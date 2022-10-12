@@ -1,4 +1,3 @@
-import { LineAxisOutlined } from '@mui/icons-material'
 import { Box, Stack, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
@@ -54,7 +53,7 @@ const VideDetail = () => {
 							direction='row'
 							justifyContent='space-between'
 							sx={{ color: '#fff', py: 1, px: 2 }}>
-							<Link to={`/channel/&{channelId}`}>
+							<Link to={`/channel/${channelId}`}>
 								<Typography variant={{ sm: 'subtitle', md: 'h6' }} color='#fff'>
 									{channelTitle}
 									<CheckCircle
